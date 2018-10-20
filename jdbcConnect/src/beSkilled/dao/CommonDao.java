@@ -8,7 +8,7 @@ public interface CommonDao {
 
     void insert();
 
-    void update();
+    void updat();
 
     void delete();
 
