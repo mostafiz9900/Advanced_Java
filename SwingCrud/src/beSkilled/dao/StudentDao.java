@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface StudentDao {
 
-    void createTable();
+    void createTable(String sql);
 
     void insert(Student s);
 
