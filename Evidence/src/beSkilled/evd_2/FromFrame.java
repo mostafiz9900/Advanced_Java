@@ -394,17 +394,17 @@ public class FromFrame extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Enter your psaaWoed , 5 to 10 ");
         } else if (!checkEmailvalidity(txtEmail.getText()) || txtEmail.getText().length() < 1) {
             JOptionPane.showMessageDialog(null, "Enter your Valid Email");
-        } else if (Integer.parseInt(txtAge.getText()) < 18 || Integer.parseInt(txtAge.getText()) > 70) {
-            JOptionPane.showMessageDialog(null, "Enter your Age between 10 to 70");
-        } else if (buttonGroup1.getSelection().isSelected() == false) {
-            JOptionPane.showMessageDialog(null, "Select A Gender");
-        } else if (!chkRead.isSelected() && !chkWrite.isSelected() && !chkPlay.isSelected()) {
-            JOptionPane.showMessageDialog(null, "Select Hobby");
-        } else if (cmbRound.getItemAt(cmbRound.getSelectedIndex()) == "Select A Round") {
-            JOptionPane.showMessageDialog(null, "Enter A Round");
-        } else if (txtMessage.getText().length() < 5) {
-            JOptionPane.showMessageDialog(null, "Enter your Message , At least 5 Charcters");
-        } else {
+//        } else if (Integer.parseInt(txtAge.getText()) < 18 || Integer.parseInt(txtAge.getText()) > 70) {
+//            JOptionPane.showMessageDialog(null, "Enter your Age between 10 to 70");
+//        } else if (buttonGroup1.getSelection().isSelected() == false) {
+//            JOptionPane.showMessageDialog(null, "Select A Gender");
+//        } else if (!chkRead.isSelected() && !chkWrite.isSelected() && !chkPlay.isSelected()) {
+//            JOptionPane.showMessageDialog(null, "Select Hobby");
+//        } else if (cmbRound.getItemAt(cmbRound.getSelectedIndex()) == "Select A Round") {
+//            JOptionPane.showMessageDialog(null, "Enter A Round");
+//        } else if (txtMessage.getText().length() < 5) {
+//            JOptionPane.showMessageDialog(null, "Enter your Message , At least 5 Charcters");
+      } else {
             name = txtname.getText();
             email = txtEmail.getText();
             age = txtAge.getText();
