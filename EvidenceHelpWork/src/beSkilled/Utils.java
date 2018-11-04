@@ -31,7 +31,7 @@ public class Utils {
         File destFile = new File(filename + ".txt");
         try {
             if (destFile.exists() == false) {
-                System.out.println("We had to make a new file.");
+                System.out.println("We had to make a new file");
                 destFile.createNewFile();
             }
             PrintWriter out = new PrintWriter(new FileWriter(destFile, true));

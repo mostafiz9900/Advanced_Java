@@ -5,7 +5,6 @@
  */
 package beSkilled.evd_3;
 
-import com.sun.xml.internal.ws.message.stream.StreamAttachment;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
@@ -402,9 +401,6 @@ public class FrameForm_3 extends javax.swing.JFrame {
         if (txtName.getText().length()<1) {
             JOptionPane.showMessageDialog(null, "Enter your valid name");
 
-        }else if(){
-        
-        
         }else{
             id = txtName.getText();
             name = txtName.getText();
